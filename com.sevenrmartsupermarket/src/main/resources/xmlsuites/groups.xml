@@ -1,0 +1,22 @@
+<suite name="Group run">
+
+	<listeners>
+		<listener
+			class-name="com.sevenmartsupermarket.listeners.ExtendReporter"></listener>
+	</listeners>
+	<test name="Logintest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+				<include name="regression"></include>
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.DashboardTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.AdminUsersTest"></class>
+		</classes>
+	</test>
+
+</suite>

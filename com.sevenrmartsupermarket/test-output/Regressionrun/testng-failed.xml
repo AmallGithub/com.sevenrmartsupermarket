@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Regressionrun]">
+  <test thread-count="5" parallel="methods" name="Logintest(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin"/>
+          <include name="verifyInvalidLogin"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.LoginTest -->
+    </classes>
+  </test> <!-- Logintest(failed) -->
+  <test thread-count="5" parallel="methods" name="HomePageTest(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.AdminUsersTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyUserDetailIsUpdatedSuccessfully"/>
+          <include name="verifyUnsuccessfulNewAdminUserCreation"/>
+          <include name="verifySuccessfulDeletionofNewAdminUser"/>
+          <include name="verifyUserTypeofNewUser"/>
+          <include name="sampleTest"/>
+          <include name="verifySuccessfullDeletionofAUser"/>
+          <include name="verifyAdminUsersTitle"/>
+          <include name="verifyTableStatusElementofAUserIsClickable"/>
+          <include name="verifySuccessfulNewAdminUserCreation"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.AdminUsersTest -->
+      <class name="com.sevenrmartsupermarket.tests.DashboardTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyWhetherManagePagesCardIsClickable"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.DashboardTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regressionrun] -->

@@ -1,0 +1,14 @@
+<suite name="Regressionrun" thread-count="5" parallel="methods">
+	<test name="Logintest">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest"></class>
+		</classes>
+	</test>
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.DashboardTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.AdminUsersTest"></class>
+
+		</classes>
+	</test>
+</suite>
