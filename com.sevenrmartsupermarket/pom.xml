@@ -1,7 +1,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>TestNGbasics</groupId>
-	<artifactId>TestNGbasics</artifactId>
+	<groupId>com.sevenrmartsupermarket</groupId>
+	<artifactId>com.sevenrmartsupermarket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
