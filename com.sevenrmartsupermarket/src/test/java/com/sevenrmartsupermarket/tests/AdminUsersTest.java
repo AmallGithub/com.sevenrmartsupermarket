@@ -95,12 +95,7 @@ public class AdminUsersTest extends base {
 		
 	}
 	
-	@Test
-	public void sampleTest()
-	{
-		String username="Harish"+GeneralUtility.get_RandomFirstName();
-		
-	}
+	
 	
 	
 
